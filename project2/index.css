@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin:0; 
+   }
+   
+   body{
+    font-family: 'Roboto', sans-serif;
+
+
+   }
+
+
+   .container-fluid{
+     width:100%;
+   }
+   
+   .container{
+     max-width:800px;
+     margin:0 auto;
+     min-height: inherit;
+   }
+  
+
+   .links p {
+    padding: 0 5px;
+    color: black;
+    border-right:1px solid black;
+    cursor: pointer;
+   }
+
+   .links p:nth-of-type(5){
+    border: none;
+   }
+
+   .links p:hover{
+    color:green
+   }
+
+
+
+
+   .b_class:hover{
+    color: green;
+    cursor: pointer;
+   }
